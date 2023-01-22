@@ -1,0 +1,77 @@
+/*Fonts used*/
+
+@font-face {
+    font-family: Poppins;
+    font-weight: 100;
+    src: url("../fonts/Poppins-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: Poppins;
+    font-weight: 200;
+    src: url("../fonts/Poppins-Bold.otf") format("opentype");
+}
+
+/*Stylization*/
+
+.Banner{
+    background-image: url("../images/banner.png");
+width: screen;}
+
+.Header{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+#BannerLogo {
+    margin: 1% 15% 2.25% 0%;
+}
+.Header > p{
+    align-self: center;
+    margin-right: 4%;
+}
+
+.Header >img:not(#BannerLogo){
+    align-self: center;
+    margin-right: 4%;
+    height: 20px;
+}
+
+.BannerContent{
+    display: flex;
+    margin: 0% 15%;
+}
+
+.BannerText > h1{
+    color: #ff4e5b;
+    font-size: 4em;
+    font-family: Poppins;
+    font-weight: 100;
+    margin-bottom: 0%;
+}
+.BannerText > h2{
+    color: white;
+    font-size: 5.5em;
+    font-family: Poppins;
+    font-weight: 200;
+    margin-top: 0%;
+}
+.BannerText >p{
+    color: white;
+    
+}
+
+/*Carousel*/
+
+.BannerCarousel{
+    overflow: hidden;
+}
+
+.CarouselInner{
+    white-space: nowrap;
+    transition: transform 0.3s;
+}
+
+.CarouselItem{
+    display: inline-flex;
+}
+
