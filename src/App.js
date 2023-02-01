@@ -1,9 +1,13 @@
-import Banner from './components/home/Banner';
-import './style/App.css';
+import Banner from "./components/home/Banner";
+import News from "./components/home/News";
+import "./style/App.css";
 
 function App() {
   return (
-    <Banner/>
+    <>
+      <Banner></Banner>
+      <News></News>
+    </>
   );
 }
 

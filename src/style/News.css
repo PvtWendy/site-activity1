@@ -1,0 +1,48 @@
+.NewsText {
+  justify-content: center;
+  font-family: Poppins;
+  font-weight: 100;
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
+.NewsNew {
+  background-color: black;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 25px;
+  margin-left: 22%;
+  z-index: 3;
+  font-family: Poppins;
+  font-weight: 100;
+}
+
+.NewsCollection {
+  display: flex;
+}
+.NewsShoe1 {
+  margin-top: -8px;
+  margin-left: -4%;
+  z-index: 2;
+  position: relative;
+}
+.NewsShoe1 img {
+  height: fit-content;
+  width: fit-content;
+}
+.NewsShoe2 {
+  margin-top: 8.1%;
+  margin-left: -8%;
+  position: relative;
+}
+.NewsShoe2 img :first-of-type{
+    height: fit-content;
+    width: fit-content;
+}
+
+#NewShoeImg{
+    position: absolute;
+    right: 15%;
+    top: 22.5%;
+}

@@ -1,77 +1,91 @@
 /*Fonts used*/
 
 @font-face {
-    font-family: Poppins;
-    font-weight: 100;
-    src: url("../fonts/Poppins-Regular.otf") format("opentype");
+  font-family: Poppins;
+  font-weight: 100;
+  src: url("../fonts/Poppins-Regular.otf") format("opentype");
 }
 @font-face {
-    font-family: Poppins;
-    font-weight: 200;
-    src: url("../fonts/Poppins-Bold.otf") format("opentype");
+  font-family: Poppins;
+  font-weight: 200;
+  src: url("../fonts/Poppins-Bold.otf") format("opentype");
 }
 
 /*Stylization*/
 
-.Banner{
-    background-image: url("../images/banner.png");
-width: screen;}
+.Banner {
+  background-image: url("../images/banner.png");
+  width: screen;
+}
 
-.Header{
-    display: flex;
-    color: white;
-    justify-content: center;
+.Header {
+  display: flex;
+  color: white;
+  justify-content: center;
 }
 #BannerLogo {
-    margin: 1% 15% 2.25% 0%;
+  margin: 1% 15% 2.25% 0%;
 }
-.Header > p{
-    align-self: center;
-    margin-right: 4%;
-}
-
-.Header >img:not(#BannerLogo){
-    align-self: center;
-    margin-right: 4%;
-    height: 20px;
+.Header > p {
+  align-self: center;
+  margin-right: 4%;
 }
 
-.BannerContent{
-    display: flex;
-    margin: 0% 15%;
+.Header > img:not(#BannerLogo) {
+  align-self: center;
+  margin-right: 4%;
+  height: 20px;
 }
 
-.BannerText > h1{
-    color: #ff4e5b;
-    font-size: 4em;
-    font-family: Poppins;
-    font-weight: 100;
-    margin-bottom: 0%;
-}
-.BannerText > h2{
-    color: white;
-    font-size: 5.5em;
-    font-family: Poppins;
-    font-weight: 200;
-    margin-top: 0%;
-}
-.BannerText >p{
-    color: white;
-    
+.BannerContent {
+  display: flex;
+  margin: 0% 10%;
 }
 
-/*Carousel*/
-
-.BannerCarousel{
-    overflow: hidden;
+.BannerText > h1 {
+  color: #ff4e5b;
+  font-size: 3.5em;
+  font-family: Poppins;
+  font-weight: 100;
+  margin-bottom: 0%;
+}
+.BannerText > h2 {
+  color: white;
+  font-size: 4.5em;
+  font-family: Poppins;
+  font-weight: 200;
+  margin-top: 0%;
+}
+.BannerSmallText {
+  color: white;
+  background-color: transparent;
+  border: 0px hidden;
+  font-family: Poppins;
+  font-weight: 100;
+  font-size: 1em;
+  margin-top: -5%;
+  width: 600px;
+  height: 250px;
+  resize: none;
+  margin-left: 5%;
+}
+.BannerButton {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.CarouselInner{
-    white-space: nowrap;
-    transition: transform 0.3s;
+.BannerButton button {
+  border-radius: 5%;
+  font-family: Poppins;
+  font-weight: 100;
+  padding: 15px 45px;
+}
+.BannerButton :first-child {
+  color: white;
+  background-color: #ff4e5b;
 }
 
-.CarouselItem{
-    display: inline-flex;
+.BannerButton :not(:first-child) {
+  color: #ff4e5b;
+  background-color: white;
 }
-
