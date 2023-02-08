@@ -23,7 +23,7 @@ export default function CarouselItem(params) {
           <button>See More</button>
         </div>
       </div>
-      <img src={shoes1} alt="shoes"></img>
+      <img id="Shoe" src={shoes1} alt="shoes"></img>
     </div>
   );
 }
