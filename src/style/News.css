@@ -121,6 +121,14 @@
   right: 160px;
   justify-content: center;
 }
+#Stars3{
+  background-image: url("../images/star-icon.png");
+  height: 15px;
+  width: 75px;
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+}
 
 #See {
   font-family: Poppins;
@@ -188,4 +196,62 @@
   justify-self: center;
   padding: 15px 95px;
   color: white;
+}
+
+.NewsShoes{
+  position: relative;
+  background-color: white;
+  width: 250px;
+  height: 400px;
+  padding: 10px 50px;
+  margin: 0px 20px;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 100;
+  margin-top: 40px;
+
+}
+.NewsShoes img{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.NewsPink{
+  background-color: #ff4e5b;
+  width: 100%;
+  padding: 150px 0px 250px 0px;
+  position: relative;
+}
+.NewsContainer{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: fit-content;
+}
+.NewsContainerPrice{
+  position: absolute;
+  bottom: 8px;
+  right: 40px;
+  font-family: Poppins;
+  color: #ff4e5b;
+}
+.NewsContainerPrice::first-letter{
+  color: black;
+}
+.NewsPink h1{
+  bottom: 130px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 10px 25px;
+  color: white;
+  font-size: 1.5em;
+  position: absolute;
+  font-family: Poppins;
+  font-weight: 100;
+  background-color: black;
+  width: fit-content;
 }

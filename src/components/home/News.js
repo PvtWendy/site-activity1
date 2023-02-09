@@ -3,6 +3,12 @@ import "../../style/News.css";
 import newsshoe from "../../images/about-img1.png";
 import newsshoe2 from "../../images/shoes-img2.png";
 import runningshoes from "../../images/shoes-img3.png";
+import newsshoe4 from "../../images/shoes-img4.png";
+import newsshoe5 from "../../images/shoes-img5.png";
+import newsshoe6 from "../../images/shoes-img6.png";
+import newsshoe7 from "../../images/shoes-img7.png";
+import newsshoe8 from "../../images/shoes-img8.png";
+import newsshoe9 from "../../images/shoes-img9.png";
 import newsbg from "../../images/about-img2.png";
 
 export default function News() {
@@ -68,6 +74,49 @@ export default function News() {
             exercitation
           </p>
         </div>
+      </div>
+      <div className="NewsPink">
+        <div className="NewsContainer">
+          <div className="NewsShoes">
+            <p>Best Shoes</p>
+            <img src={newsshoe4}></img>
+            <div id="Stars3"></div>
+            <p className="NewsContainerPrice">$60</p>
+          </div>
+          <div className="NewsShoes">
+            <p>Best Shoes</p>
+            <img src={newsshoe5}></img>
+            <div id="Stars3"></div>
+            <p className="NewsContainerPrice">$400</p>
+          </div>
+          <div className="NewsShoes">
+            <p>Best Shoes</p>
+            <img src={newsshoe6}></img>
+            <div id="Stars3"></div>
+            <p className="NewsContainerPrice">$50</p>
+          </div>
+        </div>
+        <div className="NewsContainer">
+          <div className="NewsShoes">
+            <p>Best Shoes</p>
+            <img src={newsshoe7}></img>
+            <div id="Stars3"></div>
+            <p className="NewsContainerPrice">$70</p>
+          </div>
+          <div className="NewsShoes">
+            <p>Best Shoes</p>
+            <img src={newsshoe8}></img>
+            <div id="Stars3"></div>
+            <p className="NewsContainerPrice">$100</p>
+          </div>
+          <div className="NewsShoes">
+            <p>Best Shoes</p>
+            <img src={newsshoe9}></img>
+            <div id="Stars3"></div>
+            <p className="NewsContainerPrice">$90</p>
+          </div>
+        </div>
+        <h1>Buy Now</h1>
       </div>
     </>
   );
